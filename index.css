@@ -437,10 +437,42 @@ body {
 .swiper {
     margin-left: auto;
     margin-right: auto;
+    width: 700px;
+    height: 500px;
 }
 
 #background-contact {
     margin-top: 80px;
     padding: 20px 0px 10px 0px;
     background-color: #f4f4f4;
+}
+
+.con {
+    width: 100%;
+}
+
+.con .contact {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+
+.contact .contactleft {
+    width: 700px;
+}
+
+.contact .contactleft p {
+    margin: 20px 0px 0px 150px;
+    float: right;
+    padding-right: 25px;
+}
+
+.contact .contactright {
+    width: 700px;
+}
+
+.contact .contactright p {
+    display: block;
+    margin: 20px;
 }
